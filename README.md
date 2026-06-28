@@ -39,6 +39,9 @@ src/
 ### Installation
 
 ```bash
+git clone https://github.com/JeromeJason-dev/Movie-Watchlist.git
+cd movie-watchlist
+
 # Install dependencies
 npm install
 
