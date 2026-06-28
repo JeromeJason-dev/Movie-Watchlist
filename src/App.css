@@ -1,0 +1,108 @@
+body {
+  background-color: #121214;
+  color: #e1e1e6;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 500px;
+  background: #202024;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h1 { text-align: center; margin-bottom: 24px; color: #fff; }
+
+.movie-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.movie-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #29292e;
+  border-radius: 4px;
+  background: #121214;
+  color: #fff;
+}
+
+.movie-form button {
+  background: #04d361;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.filter-container button {
+  background: transparent;
+  border: 1px solid #4d4d57;
+  color: #a8a8b3;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filter-container button.active {
+  background: #8257e5;
+  color: white;
+  border-color: #8257e5;
+}
+
+.movie-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #29292e;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  border-left: 4px solid #8257e5;
+}
+
+.movie-item.watched-card {
+  border-left-color: #4d4d57;
+  opacity: 0.6;
+}
+
+.genre-tag {
+  font-size: 0.8rem;
+  background: #121214;
+  padding: 3px 8px;
+  border-radius: 10px;
+  color: #a8a8b3;
+}
+
+.action-buttons { display: flex; gap: 8px; }
+
+.action-buttons button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #323238;
+  color: #fff;
+}
+
+.action-buttons .delete-btn:hover { background: #c53030; }
+
+.empty-message {
+  text-align: center;
+  color: #7c7c8a;
+  margin-top: 30px;
+}
